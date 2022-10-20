@@ -1,0 +1,803 @@
+nav {
+  font-weight: normal;
+  text-size-adjust: 100%;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  direction: ltr;
+  text-align: left;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  position: absolute;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 9999;
+  display: block;
+  margin: 0px;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  background: rgba(0, 0, 0, 0.92);
+  font-size: 17px;
+  user-select: none;
+}
+
+.inner-nav {
+  display: block;
+  margin: 0px auto;
+  max-width: 980px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  z-index: 2;
+  padding-left: max(22px, env(safe-area-inset-left));
+  padding-right: max(22px, env(safe-area-inset-right));
+}
+
+.gn-list {
+  list-style: none;
+  cursor: default;
+  margin: 0px -8px;
+  width: auto;
+  height: 44px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  user-select: none;
+  padding: 0px;
+  margin-left: 1.17647em;
+}
+
+.nav-logo {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-size: 14px 44px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg");
+  background-position: center center;
+  width: 14px;
+}
+
+.nav-logo:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-store {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_store_image__c7jy08initqq_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 2.5em;
+  max-width: 51px;
+}
+
+.ac-gn-store:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-mac {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_mac_image__dazlko3t9a6a_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 1.91667em;
+  max-width: 39.1px;
+}
+
+.ac-gn-mac:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.ac-gn-iPad {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_ipad_image__fw9qyj9lloi2_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 2em;
+  max-width: 40.8px;
+}
+
+.ac-gn-iPad:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-iPhone {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_iphone_image__ko7x4isga4ia_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 3.16667em;
+  max-width: 64.6px;
+}
+
+.ac-gn-iPhone:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-watch {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_watch_image__gkoblojrlsqe_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 2.91667em;
+  max-width: 59.5px;
+}
+
+.ac-gn-watch:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-airpods {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 3.58333em;
+  max-width: 73.1px;
+}
+
+.ac-gn-airpods:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.ac-gn-tv {
+  font-size: 12px;
+  line-height: 3.66667;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  color: rgb(245, 245, 247);
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+  height: 44px;
+  opacity: 0.8;
+  background: no-repeat;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline-offset: -7px;
+  background-repeat: no-repeat;
+  background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+  background-position: center center;
+  background-origin: content-box;
+  background-size: cover;
+  width: 3.58333em;
+  max-width: 73.1px;
+}
+
+.ac-gn-tv:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.ac-gn-only-apple{
+    font-size: 12px;
+line-height: 3.66667;
+font-weight: 400;
+letter-spacing: -0.01em;
+font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(245, 245, 247);
+position: relative;
+z-index: 1;
+display: inline-block;
+padding: 0px 8px;
+height: 44px;
+opacity: 0.8;
+background: no-repeat;
+text-decoration: none;
+white-space: nowrap;
+transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+outline-offset: -7px;
+background-repeat: no-repeat;
+background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+background-position: center center;
+background-origin: content-box;
+background-size: cover;
+width: 3.58333em;
+max-width: 73.1px;
+}
+
+.ac-gn-only-apple:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.ac-gn-accesories{
+    font-size: 12px;
+line-height: 3.66667;
+font-weight: 400;
+letter-spacing: -0.01em;
+font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(245, 245, 247);
+position: relative;
+z-index: 1;
+display: inline-block;
+padding: 0px 8px;
+height: 44px;
+opacity: 0.8;
+background: no-repeat;
+text-decoration: none;
+white-space: nowrap;
+transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+outline-offset: -7px;
+background-repeat: no-repeat;
+background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_airpods_image__f969s84ivmaa_large.svg");
+background-position: center center;
+background-origin: content-box;
+background-size: cover;
+width: 3.58333em;
+max-width: 73.1px;
+}
+
+.ac-gn-accesories:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.ac-gn-support{
+    font-size: 12px;
+line-height: 3.66667;
+font-weight: 400;
+letter-spacing: -0.01em;
+font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(245, 245, 247);
+position: relative;
+z-index: 1;
+display: inline-block;
+padding: 0px 8px;
+height: 44px;
+opacity: 0.8;
+background: no-repeat;
+text-decoration: none;
+white-space: nowrap;
+transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+outline-offset: -7px;
+background-repeat: no-repeat;
+background-image: url("../../en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_links_support_image__bw9kctll7u3m_large.svg");
+background-position: center center;
+background-origin: content-box;
+background-size: cover;
+width: 3.66667em;
+max-width: 74.8px;
+}
+.ac-gn-support:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.search{
+    background-position: 8px 0px;
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(245, 245, 247);
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0px 8px;
+    height: 44px;
+    opacity: 0.8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline-offset: -7px;
+    background-size: 15px 88px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg");
+    width: 15px;    
+}
+
+.search:hover{
+    opacity: 1;
+}
+.shop{
+    font-size: 12px;
+line-height: 3.66667;
+font-weight: 400;
+letter-spacing: -0.01em;
+font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: rgb(245, 245, 247);
+position: relative;
+z-index: 1;
+display: inline-block;
+padding: 0px 8px;
+height: 44px;
+opacity: 0.8;
+background: no-repeat;
+text-decoration: none;
+white-space: nowrap;
+transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+outline-offset: -7px;
+background-size: 13px 44px;
+background-repeat: no-repeat;
+background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg");
+background-position: center center;
+width: 13px;
+}
+.shop:hover{
+    opacity: 1;
+}
+.first {
+    display: flex;
+}
+.img {
+  max-width: 100%;
+}
+.img1 {
+  padding-top: 70px;
+  padding-left: 400px;
+  
+}
+.txt1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-top: 290px;
+  text-align: center;
+  right: 450px;
+  position: absolute;
+}
+h2, h4{
+  margin: -1px;
+}
+.txt2 {
+  font-size: 18px;
+}
+em {
+  font-family: Arial;
+  color: rgb(161, 160, 160);
+}
+.links{
+  font-size:medium;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:  0.5fr 0.5fr;
+}
+.img2 {
+  text-align: center;
+}
+video {
+  width: 75%;
+  border-radius: 110px 30px;
+}
+.txt3 {
+  justify-content: center;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third {
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+.box-text {
+  max-width: 500px;
+  text-align: center;
+  justify-self: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.box1{
+  background-color: black;
+  width: 85%;
+  height: 65%;
+  margin-top: 1px;
+  border-radius: 12px;
+}
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  flex-basis: 75%;
+  order: 2;
+}
+.box1{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.text {
+  color: #ffffff;
+  padding-left: 250px;
+  font-size: 20px;
+  font: arial 100px ;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+}
+.txt4 {
+  margin: -5px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+}
+.links2, .links3{
+  font-size:large;
+  margin-top: 10px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns:  150px 350px;
+}
+.links3{
+  margin-top: 2px;
+}
+.txt6 {
+  text-align: justify;
+  margin: 5px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+}
+.text {
+  text-align: center;
+  padding-right: 300px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+}
+.tv {
+  text-align: center;
+}
+.links4
+{
+  display: inline-block;
+  padding: 7px;
+
+}
+.links5 {
+  display: inline-block;
+  padding: 7px;
+}
+#leftbox {
+  float:left; 
+  background : url(/images/14pro1.jpg);
+  background-size: 100%;
+  width:50%;
+  height: 500px;
+}
+#rytbox {
+  float:right; 
+  background:url(/images/iphone14.jpg);
+  background-position-x: center;
+  width:50%;
+  height: 500px;
+}
+.text1 {
+  color: white;
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  margin: -2px;
+}
+.text2 {
+  color: black;
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  margin: -2px;
+}
+.links6
+{
+float: inline-start;
+display:-moz-inline-grid;
+}
+.links7 {
+float: inline-end;
+display: -moz-inline-grid;
+}
+#leftbox1 {
+  margin-top: 15px;
+  float:left; 
+  background : url(/images/ultra.jpg);
+  background-size: 100%;
+  width:50%;
+  height: 500px;
+}
+#rytbox1 {
+  margin-top: 15px;
+  float:right; 
+  background:url(/images/series8.jpg);
+  background-size: 100%;
+  width:50%;
+  height: 500px;
+}
+.text3 {
+  color: black;
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 12px;
+  padding-top: 12px;
+}
+.text4 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  margin: 12px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  padding-top: 12px;
+}
+.se {
+  margin:-20px;
+  font-size:large;
+}
+.te {
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+#leftbox2 {
+  margin-top: 20px;
+  float:left; 
+  background : url(/images/pods.jpg);
+  background-size: 100%;
+  width:50%;
+  height: 500px;
+}
+#rytbox2 {
+  margin-top: 20px;
+  float:right; 
+  background:url(/images/card.jpg);
+  background-size: cover;
+  width:50%;
+  height: 500px;
+}
+.text5 {
+  color: white;
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  margin: -2px;
+}
+.text6 {
+  color: black;
+  font-size: 15px;
+  font-family:-apple-system, BlinkMacSystemFont, sans-serif;
+  margin: -2px;
+}
+.links6
+{
+display:inline-block;
+padding: 5px;
+}
+.links7 {
+display: inline-block;
+padding: 20px;
+}
+.footer-base {
+  padding-top: 34px;
+  padding-bottom: 21px;
+  color: #888;
+  font-size: 12px; 
+}
+
+.footer-more-ways {
+    margin-bottom: 7px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+.footer-legal-copyright {
+  margin-top: 20px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+.footer-legal-links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-legal-links a {
+border-right: 1px solid #d6d6d6;
+margin-right: 10px;
+padding-right: 12px;
+display: inline-block;
+white-space: nowrap;
+color: #555;
+}
+
+.footer-legal-links a:last-child {
+border-right: none;
+}
+
+.footer-legal-links a:hover {
+color: #333;
+}
+
+*{box-sizing: border-box;}
+.mySlides {display: none;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.btn {
+    background-color:#0a0a23;
+    font-size: large;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
